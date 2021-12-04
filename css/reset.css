@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+html {
+	font-size:100%;
+}
+body {
+	font:normal 12px "애플고딕", AppleGothic, "돋움", dotum, Arial, Verdana, sans-serif;
+	line-height:1.3;
+	color:#666666;
+	background-color:#fff;
+	margin:0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:1em;
+}
+h1, h2, h3, h4, h5, h6, div, p, dl, dt, dd, ul, ol, li, form, fieldset, blockquote, address, table, thead, tbody, tfoot, tr, td, caption {
+	margin:0;
+	padding:0;
+}
+img {border:none;}
+ul, ol {
+	list-style:none;
+}
+
+body {
+	padding: 40px;
+}
+
+.container {
+	border: 1px solid #999;
+	width: 593px;
+	height: 191px;
+}
+.container .head {
+	border-bottom: 1px solid #666666;
+	height: 42px;
+	position: relative;
+}
+.container .head h3 {
+	margin: 16px 0 0 17px;
+	float: left;
+}
+.container .head h3 img {
+	
+}
+
+.container .head ul {
+	position: absolute;
+	top: 16px;
+	left: 80px;
+}
+.container .head > ul > li {
+	float: left;
+	/* border: 1px solid red; */
+	padding: 0 5px 0 6px;
+	background-image: url('../images/line_h.gif');
+	background-repeat: no-repeat;
+	background-position: 0 2px;
+}
+.container .head ul li:first-child {
+	background: none;
+	padding-left: 0;
+}
+.container .head ul li ~ li {
+	/* margin-left: 6px; */
+}
+.container .head ul li a {
+	color: #666666;
+	text-decoration: none;
+}
+
+.container .head .list {
+	float: right;
+	position: absolute;
+	top: 10px;
+	right: 12px;
+}
+.container .head .list .btn {
+	display: block;
+	border: 1px solid #666666;
+	color: #666666;
+	text-decoration: none;
+	width: 80px;
+	height: 18px;
+	padding-top: 3px;
+	padding-left: 5px;
+	background-image: url('../images/bul_down.gif');
+	background-repeat: no-repeat;
+	background-position: 73px 9px;
+}
+.container .head .list ul {
+	border: 1px solid #666666;
+	width: 85px;
+	position: absolute;
+	top: 23px;
+	left: 0px;
+	background-color: white;
+}
+.container .head .list ul li {
+	padding-left: 5px;
+	padding-top: 5px;
+}
+.container .head .list ul a {
+
+}
